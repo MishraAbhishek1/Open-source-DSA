@@ -33,6 +33,10 @@ class QueueUsingTwoStacks{
                 System.out.println(s1.pop());
             }
         }
+
+        public boolean isEmpty() {
+            return s1.isEmpty() && s2.isEmpty();
+        }
     }
 
     public static void main(String[] args){
